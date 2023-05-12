@@ -6,7 +6,7 @@ namespace SOLID_Example.Interfaces
     {
         IEnumerable<Element> GetAll();
         bool Add(Element element);
-        bool Remove(Element element);
+        bool Delete(Element element);
         bool Update(Element element);
         void CleanAll();
         void Dispose();

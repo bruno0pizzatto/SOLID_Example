@@ -35,7 +35,7 @@ namespace SOLID_Example.Databases
             }
         }
 
-        public bool Remove(Element element)
+        public bool Delete(Element element)
         {
             var elementsCollection = MapTable();
            
